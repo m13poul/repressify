@@ -31,7 +31,7 @@ function Signup() {
         {({ errors, touched }) => (
           <Form className="login-container mx-auto">
             <label htmlFor="username">Username</label>
-            <Field id="username" name="username" placeholder="Jane" className="basic" />
+            <Field id="username" name="username" placeholder="Just a username" className="basic" />
             <span className="text-center error">{errors.username}</span>
 
             <label htmlFor="password">Password</label>
@@ -39,7 +39,7 @@ function Signup() {
             <span className="text-center error">{errors.password}</span>
 
             <label htmlFor="confirmPassword">Confirm Password</label>
-            <Field id="confirmPassword" name="confirmPassword" placeholder="jane@acme.com" type="password" className="basic" />
+            <Field id="confirmPassword" name="confirmPassword" placeholder="*********" type="password" className="basic" />
             <span className="text-center error">{errors.confirmPassword}</span>
             <SubmissionButton value="Sign Up" />
           </Form>
