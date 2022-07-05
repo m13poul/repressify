@@ -1,7 +1,6 @@
 const { connectToDB, getDB } = require("../db");
 const Parser = require("rss-parser");
 const ObjectId = require("mongodb").ObjectId;
-const redis = require("redis");
 const chalk = require("chalk");
 const crypto = require("crypto");
 const fetch = (...args) =>
@@ -18,11 +17,6 @@ connectToDB((err) => {
   }
 });
 const parser = new Parser();
-const client = redis.createClient();
-const openConnection = async () => {
-  await client.connect();
-};
-openConnection();
 
 module.exports.fetchCategoriesAndTitles = async (req, res) => {
   const startTime = performance.now();
