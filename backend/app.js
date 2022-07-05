@@ -37,7 +37,7 @@ mail.setApiKey(process.env.SENDGRID_API_KEY);
 let db;
 connectToDB((err) => {
   if (!err) {
-    const server = app.listen(3002, () => {
+    const server = app.listen(3005, () => {
       console.log(
         "Connected to db. App listening on port",
         server.address().port
