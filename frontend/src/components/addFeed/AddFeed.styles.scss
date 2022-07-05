@@ -1,0 +1,27 @@
+@use "../../sassStyles/typography";
+@use "../../sassStyles/variables";
+
+.add-feed {
+  color: variables.$main-text-color;
+  text-align: center;
+  font-size: typography.$text-xxl;
+}
+
+.add-feed-input {
+  width: 40%;
+  padding: 0.5rem 0;
+}
+.add-feed-selector {
+  padding: 0.5rem 0;
+}
+.fields {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.text-medium {
+  font-size: typography.$text-large;
+}

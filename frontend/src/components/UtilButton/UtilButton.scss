@@ -1,0 +1,28 @@
+@use "../../sassStyles/variables";
+@use "../../sassStyles/animations";
+
+.utilButton {
+  @include animations.main-animation(-8px);
+  color: variables.$light-text-color;
+  padding: 10px;
+  margin-top: 1rem;
+  border-radius: 100px;
+  max-width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.utilButton-red {
+  background-color: #7f1d1d;
+}
+.utilButton-black {
+  background-color: black;
+}
+.utilButton-green {
+  background-color: green;
+}
+.center-button {
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,15 @@
+@use "../../sassStyles/variables";
+@use "../../sassStyles/animations";
+@use "../../sassStyles/typography";
+
+.submission-button {
+  @include animations.main-animation(-8px);
+  background-color: variables.$main-background;
+  color: variables.$light-text-color;
+  margin: 12px 0;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: typography.$text-larger;
+}

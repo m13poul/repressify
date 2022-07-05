@@ -1,0 +1,9 @@
+.utilButtonsFlex {
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  &:last-child {
+    margin-right: 1px;
+  }
+}

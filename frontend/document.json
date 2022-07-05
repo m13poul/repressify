@@ -1,0 +1,38 @@
+{
+  "_id": {
+    "$oid": "627fb2faeb6986e150b7ae49"
+  },
+  "feeds": {
+    "news": [
+      "https://thepressproject.gr/feed/rss/",
+      "https://typos-i.gr/rss"
+    ],
+    "world": [
+      "https://www.nzz.ch/international.rss",
+      "https://www.faz.net/rss/aktuell/",
+      "https://www.theguardian.com/international/rss"
+    ],
+    "opinion": [
+      "https://thepressproject.gr/feed/rss/"
+    ],
+    "techonology": [
+      "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
+      "https://feeds.arstechnica.com/arstechnica/index/",
+      "https://hnrss.org/frontpage",
+      "https://feeds.megaphone.fm/darknetdiaries",
+      "https://media.rss.com/managingelearning/feed.xml"
+    ],
+    "politics": [
+      "https://nitter.net/Homosacer2/rss",
+      "https://nitter.fdn.fr/Lunaticus_9/rss"
+    ],
+    "lifestyle": [
+      "https://www.podstories.gr/feed/"
+    ]
+  },
+  "podcasts": {
+    "world": [
+      "https://www.monde-diplomatique.fr/podcast/rss"
+    ]
+  }
+}

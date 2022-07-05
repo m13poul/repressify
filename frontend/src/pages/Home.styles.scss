@@ -1,0 +1,42 @@
+.homepage-grid {
+  // display: grid;
+  // grid-template-columns: repeat(2, minmax(0, 1fr));
+  // justify-items: center;
+  // align-items: center;
+}
+
+.slogan-card {
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.1rem;
+  color: #333;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.subtitle-page {
+  font-size: medium;
+  letter-spacing: normal;
+  padding-left: 20%;
+  padding-right: 20%;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.signup-button {
+  padding: 1rem 2rem;
+  border-radius: 100px;
+  margin: 20px auto;
+  font-size: x-large;
+  background-color: green;
+  color: white;
+}
+
+.homepage-img {
+  all: initial;
+  // height: 600px;
+  // width: 500px;
+  display: block;
+  margin: 0 auto;
+}

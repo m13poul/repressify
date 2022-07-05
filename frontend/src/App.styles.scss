@@ -1,0 +1,67 @@
+@use "./sassStyles/variables";
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "EB Garamond", serif;
+  // font-family: "Libre Caslon Text", serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.border-right {
+  border-right: 2px solid #7f1d1d;
+}
+@media (max-width: 1024px) {
+  .border-right {
+    border-right: 0px solid #7f1d1d;
+  }
+}
+
+.grid-cols-3 {
+  grid-column: span 3 / span 3;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+.top-0 {
+  top: 0px;
+}
+.buttom-0 {
+  bottom: 0px;
+}
+.fixed {
+  position: fixed;
+}
+.relative {
+  position: relative;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .grid > div:nth-child(1) {
+    grid-column: 1 / span 4;
+  }
+  .grid-cols-3 {
+    grid-column: 1 / span 4;
+  }
+}

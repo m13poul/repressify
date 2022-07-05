@@ -1,0 +1,53 @@
+@use "../../sassStyles/variables";
+@use "../../sassStyles/animations";
+
+.form-header {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  hr {
+    border: 1px solid variables.$main-text-color;
+  }
+}
+
+.form-container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 5em 0;
+}
+@media (max-width: 1280px) {
+  .form-container {
+    width: auto;
+  }
+}
+.required-notification {
+  display: flex;
+  justify-content: space-between;
+  .red {
+    color: #7f1d1d;
+  }
+}
+
+.basic {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+textarea {
+  height: 25vh;
+}
+
+label {
+  text-align: left;
+}
+
+input,
+textarea {
+  outline: none !important;
+}

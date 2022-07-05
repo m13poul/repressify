@@ -1,0 +1,24 @@
+.errorStyles {
+  margin: 1rem auto;
+  padding: 0.3rem;
+  border-radius: 4px;
+  font-size: large;
+  background-color: #8f1313;
+  color: wheat;
+  max-width: fit-content;
+  animation-name: bounce;
+  animation-duration: 0.2s;
+  animation-iteration-count: 5;
+
+  @keyframes bounce {
+    0%,
+    100% {
+      transform: translateX(-2%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateX(2%);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+}

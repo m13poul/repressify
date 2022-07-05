@@ -1,0 +1,7 @@
+@mixin main-animation($size: 1px) {
+  transition-duration: 500ms;
+  &:hover {
+    transform: translateY($size);
+    opacity: 0.9;
+  }
+}

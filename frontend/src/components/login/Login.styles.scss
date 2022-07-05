@@ -1,0 +1,39 @@
+@use "../../sassStyles/animations";
+@use "../../sassStyles/variables";
+
+.login-container {
+  display: grid;
+  max-width: 20%;
+  color: variables.$main-text-color;
+}
+@media (max-width: 1536px) {
+  .login-container {
+    max-width: 30%;
+  }
+}
+@media (max-width: 1024px) {
+  .login-container {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 640px) {
+  .login-container {
+    max-width: 100%;
+  }
+}
+.text-center {
+  text-align: center;
+}
+
+.error {
+  color: red;
+}
+.signup-form-button {
+  @include animations.main-animation(-8px);
+  background-color: variables.$main-background;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  border-radius: 100px;
+  color: variables.$light-text-color;
+}

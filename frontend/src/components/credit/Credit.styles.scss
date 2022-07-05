@@ -1,0 +1,20 @@
+@use "../../sassStyles/animations";
+@use "../../sassStyles/typography";
+
+.credit {
+  font-size: typography.$text-3xl;
+  text-align: center;
+  padding: 3em 0;
+}
+
+.github {
+  @include animations.main-animation(-4px);
+  display: inline-block;
+}
+
+@media (max-width: 1024px) {
+  .credit {
+    font-size: typography.$text-xxl;
+    // background-color: aqua;
+  }
+}
