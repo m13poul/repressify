@@ -18,7 +18,7 @@ const FormValidate = Yup.object().shape({
 });
 
 export const getTitle = async (url: string, category: string) => {
-  const { status, statusText, data } = await axios.get(`http://localhost:1458/get?url=${url}`);
+  const { status, statusText, data } = await axios.get(`${import.meta.env.VITE_ALL_ORIGINS}/get?url=${url}`);
   const feed = new window.DOMParser().parseFromString(data.contents, "text/xml");
   const feedTitle = feed.querySelector("title")?.textContent;
   const feedImage = feed.querySelector("url")?.textContent;
