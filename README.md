@@ -75,3 +75,7 @@ EMAIL_SENDER="an email address you have registered with your hosting provider an
 ```
 
 Now, you should be good to go!
+
+![home](./images/home.png)
+![content](./images/content.png)
+![content](./images/recoveryKeyDocument.png)
