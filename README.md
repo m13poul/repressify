@@ -1,7 +1,7 @@
 This is a [react](https://reactjs.org/) project bootstrapped with [`Vite`](https://vitejs.dev/).
 It's modern, yet old school minded & privacy friendly newsreader & podcast player.
 
-![logo](./Logo.png)
+![logo](./logo.png)
 
 ## Why another RSS reader ?
 
