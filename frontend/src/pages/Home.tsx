@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDom from "react-dom";
 import Header from "../components/Header.component";
 import { Routes, Route } from "react-router-dom";
 import About from "./About";
@@ -18,12 +19,11 @@ function Home() {
         </Routes>
         <div className="slogan-card">
           An old school minded <br /> modern RSS Reader
-          <p className="subtitle-page"></p>
-          <button className="signup-button" onClick={() => navigate("/signup")}>
+          <p className="subtitle-page">A Modern, yet old school minded & privacy friendly newsreader & podcast player.</p>
+          <button className="signup-button" onClick={() => navigate("/login")}>
             Start Now
           </button>
         </div>
-        <div></div>
       </div>
     </div>
   );

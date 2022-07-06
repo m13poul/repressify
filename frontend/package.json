@@ -19,6 +19,7 @@
     "react-countdown": "^2.3.2",
     "react-dom": "^18.0.0",
     "react-icons": "^4.3.1",
+    "react-markdown": "^8.0.3",
     "react-query": "^3.39.1",
     "react-router-dom": "^6.3.0",
     "react-to-print": "^2.14.7",
@@ -27,6 +28,7 @@
     "stream": "^0.0.2",
     "usehooks-ts": "^2.5.4",
     "util": "^0.10.3",
+    "vite-plugin-react-md": "^1.0.1",
     "vite-plugin-shim-react-pdf": "^1.0.5",
     "yup": "^0.32.11"
   },
